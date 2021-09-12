@@ -4,8 +4,8 @@ class Outer{
 
     int outNum = 100;
     static int sNum = 200;
-
     // 익명 내부 클래스 -> 단 하나의 추상클래스나 단 하나의 인터페이스만 구현 가능
+
     Runnable runnable = new Runnable() {
         @Override
         public void run() {
